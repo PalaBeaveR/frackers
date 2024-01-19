@@ -1,0 +1,16 @@
+[package]
+name = "frackers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cached = "0.47.0"
+criterion = "0.5.1"
+num-bigint = "0.4.4"
+primes = "0.3.0"
+
+[[bench]]
+name = "ops"
+harness = false
